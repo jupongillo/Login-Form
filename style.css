@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(35deg, #512FD0, #b265ee) ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background: white;
+    max-width: 100vw;
+    min-height: 50vh;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #8347ce;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-field{
+    position: relative;
+}
+
+.form-field input {
+    outline: none;
+    min-width: 260px;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #eee;
+    display: flex;
+}
+
+.form-field input::placeholder {
+    font-weight: 300;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to left, #533ee3, #b265ee);
+    color: white;
+    font-weight: 400;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease ;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #533ee3, #b265ee);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer .social-media a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-media a i {
+    margin: 0 0.5rem;
+}
+
+.footer .social-instagram {
+    background: linear-gradient(to right, #002296, #82028F , #C0007A, #EA0C5F, #FF5341DF, #F6BA00DF);
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer .social-twitter {
+    background: linear-gradient(to right, #6f7dfc, #2f2be4);
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer .social-facebook {
+    background: linear-gradient(to right, #4656ec, #131174);
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
